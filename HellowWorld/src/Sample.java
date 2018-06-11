@@ -5,7 +5,9 @@ public class Sample {
 		// TODO 自動生成されたメソッド・スタブ
 		System.out.println("あなたの運勢を占います");
 		int fortune = new java.util.Random().nextInt(4);
-
+		/**
+		 * スイッチの練習
+		 */
 		switch(fortune) {
 		case 1:
 			System.out.println("大吉");
