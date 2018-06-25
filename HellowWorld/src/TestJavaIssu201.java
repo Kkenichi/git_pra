@@ -6,6 +6,8 @@ public class TestJavaIssu201 {
 		/*
 		 * 初期処理
 		 */
+		int i = 0;
+		String b = null;
 	}
 
 }
