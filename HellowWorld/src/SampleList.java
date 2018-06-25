@@ -13,8 +13,13 @@ public class SampleList {
 	}
 	public static void conatString(List<String> aaList) {
 		String a = "1111";
+		/*
+		 *
+		 */
+
 		for(int i =0; i < aaList.size(); i++) {
 			a = a + aaList.get(i);
+			System.out.println(a);
 		}
 		System.out.println(a);
 
