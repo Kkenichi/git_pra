@@ -1,12 +1,12 @@
 package rpg;
 
 public class Hero {
-	String name;
-	int hp;
-	int level;
+	private String name;
+	private int hp;
+	private int level;
 
 	private static final int FIRST_HP = 100;
-	private static final int SLEP_HP = 100;
+	private static final int SLEP_HP = 1;
 	private static final int FIRST_LEVEL = 1;
 
 	Hero() {
@@ -26,6 +26,9 @@ public class Hero {
 		System.out.println("勇者" + this.name + "現在のレベル" + this.level + "現在のHP" + this.hp);
 	}
 	void attack() {
-
+		this.hp = 50;
+	}
+	public String nameGet() {
+		return this.name;
 	}
 }
