@@ -1,13 +1,13 @@
+package rpg;
 
-public class TestJavaIssu301 {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		/**
-		 * 定数 添字
-		 */
-		final String INDEX_I = "aaaaa";
-
+		Hero hero = new Hero();
+		hero.sleep();
+		hero.slep();
+		hero.show();
 	}
 
 }
