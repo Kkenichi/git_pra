@@ -31,4 +31,7 @@ public class Hero {
 	public String nameGet() {
 		return this.name;
 	}
+	public int hpGet() {
+		return this.hp;
+	}
 }

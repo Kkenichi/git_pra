@@ -9,7 +9,8 @@ public class Main {
 		hero.sleep();
 		hero.slep();
 		hero.show();
-
+		Hotel hotel = new Hotel();
+		hotel.hotelIn();
 	}
 
 }
