@@ -8,18 +8,18 @@ public class SampleList {
 		List<String> aaList = new ArrayList<>();
 		aaList.add("a");
 		aaList.add(null);
-		System.out.println(aaList);
+		System.out.println("aalistの表示" + aaList);
 		conatString(aaList);
 	}
 	public static void conatString(List<String> aaList) {
 		String a = "1111";
-		/*
-		 *
-		 */
 
 		for(int i =0; i < aaList.size(); i++) {
 			a = a + aaList.get(i);
 			System.out.println(a);
+			System.out.println("test_1");
+
+
 		}
 		System.out.println(a);
 

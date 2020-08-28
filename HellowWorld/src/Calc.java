@@ -5,11 +5,14 @@ public class Calc {
 		// TODO 自動生成されたメソッド・スタブ
 		int a = 16;
 		int b = 4;
-		int total = CalcLogic.tasu(a,b);
+		CalcLogic calc = new CalcLogic();
+
+		int total = calc.tasu(a,b);
 		System.out.println(total);
 
-		int delta = CalcLogic.hiku(a, b);
+		int delta = calc.hiku(a, b);
 		System.out.println(delta);
+		System.out.println("さとる");
 	}
 
 }
